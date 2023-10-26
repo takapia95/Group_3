@@ -8,7 +8,7 @@ const Nav = () => {
                 <img src='https://media.tenor.com/LYftKBBe2csAAAAi/earth-planet.gif' height={30} width={30} />
             </a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse btn-3" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>

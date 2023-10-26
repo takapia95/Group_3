@@ -1,6 +1,5 @@
 import GoogleMapReact from 'google-map-react'
 import LocationMaker from './LocationMaker'
-import { useState } from 'react'
 
 const Map = ({ eventData, center, zoom }) => {
   const markers = eventData.map(eventData => {
