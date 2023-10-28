@@ -1,10 +1,15 @@
 import GoogleMapReact from 'google-map-react'
 import LocationMaker from './LocationMaker'
+import LocationMaker_storm from './LocationMaker_storm'
 
 const Map = ({ eventData, center, zoom }) => {
   const markers = eventData.map(eventData => {
     if(eventData.categories[0].id === 12 ){
       return <LocationMaker lat={eventData.geometries[0].coordinates[1]}
+                            lng={eventData.geometries[0].coordinates[0]}/>
+    }
+    if(eventData.categories[0].id === 10 ){
+      return <LocationMaker_storm lat={eventData.geometries[0].coordinates[1]}
                             lng={eventData.geometries[0].coordinates[0]}/>
     }
     return null

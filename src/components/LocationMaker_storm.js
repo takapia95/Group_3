@@ -1,10 +1,10 @@
 import { Icon } from '@iconify/react'
-import volcanoIcon from '@iconify/icons-mdi/volcano'
+import stormIcon from '@iconify/icons-mdi/storm'
 
 const LocationMaker = ({  lat, lng, onClick}) => {
   return (
     <div className="location-maker" onClick={onclick}>
-        <Icon icon={volcanoIcon} className="location-icon"/>
+        <Icon icon={stormIcon} className="location-icon"/>
     
     </div>
   )
